@@ -1,5 +1,5 @@
 // 定义板载LED引脚，避免使用"魔法数字"
-#define LED_PIN 2
+#define LED_PIN 4
 
 void setup() {
   // 初始化串口通信
