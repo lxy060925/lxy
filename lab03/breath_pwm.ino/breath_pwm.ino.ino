@@ -16,12 +16,12 @@ void loop() {
   // 亮度逐渐变亮
   for(int dutyCycle = 0; dutyCycle <= 255; dutyCycle++){
     ledcWrite(pwmChannel, dutyCycle); // 写入对应通道占空比
-    delay(10);
+    delay(20);
   }
   // 亮度逐渐变暗
   for(int dutyCycle = 255; dutyCycle >= 0; dutyCycle--){
     ledcWrite(pwmChannel, dutyCycle);
-    delay(10);
+    delay(20);
   }
   Serial.println("Breathing cycle completed");
 }
