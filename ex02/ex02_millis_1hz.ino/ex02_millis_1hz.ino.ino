@@ -1,7 +1,7 @@
-// ex02 使用millis实现无阻塞1Hz闪烁，周期1000ms
+// ex02 使用millis实现无阻塞1Hz闪烁，周期2000ms
 const int ledPin = 2;
 unsigned long lastTime = 0;
-const unsigned long interval = 1000;
+const unsigned long interval = 2000;
 bool ledStatus = LOW;
 
 void setup() {
